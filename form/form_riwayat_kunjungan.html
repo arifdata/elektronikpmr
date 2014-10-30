@@ -1,0 +1,28 @@
+<div class="row"><div class="panel callout radius"><h5>Data Kunjungan Tanggal <?php echo $data['tanggal'] ?></h5></div></div>
+
+<div class="row">
+  <div class="small-3 columns">
+  <div class="panel radius">
+  <p><u>Dokter</u> :<br><?php echo $data['dokter'] ?><p>
+  <p><u>Tipe Transaksi</u> :<br><?php echo $data['tipe'] ?></p>
+  </div>
+  </div>
+  
+  <div class="small-5 columns">
+  <div class="panel callout radius">
+  <p align="center"><b>Resep</b><p><hr>
+  <p><?php echo $data['obat'] ?></p>
+  <p><?php echo $data['keterangan_resep'] ?></p>
+  </div>
+  </div>
+  
+  <div class="small-4 columns">
+  <div class="panel radius">
+  <p><u>Informasi Dokter</u> :<br><?php echo $data['info_dokter'] ?><p>
+  <p><u>Khasiat Obat</u> :<br><?php echo $data['khasiat_obat'] ?><p>
+  <p><u>Penyimpanan Obat</u> :<br><?php echo $data['penyimpanan_obat'] ?><p>
+  <p><u>Interaksi Obat</u> :<br><?php echo $data['interaksi_obat'] ?><p>
+  </div>
+  </div>
+  
+</div>

@@ -1,0 +1,19 @@
+<form action="update_pasien.php" method="post">
+<fieldset>
+<legend><h5>Data Pasien</h5></legend>
+		<label for="name">Nama Pasien</label>
+		<input type="text" name="nama" value="<?php echo $data["nama"] ?>" />
+		<label for="name">Alamat</label>
+		<input type="text" name="alamat" value="<?php echo $data["alamat"] ?>" />
+		<label for="name">No. Telepon</label>
+		<input type="text" name="telepon" value="<?php echo $data["telepon"] ?>" />
+		<label for="name">Usia</label>
+		<input type="text" name="usia" value="<?php echo $data["usia"] ?>" />
+		<label for="name">Alergi</label>
+		<input type="text" name="alergi" value="<?php echo $data["alergi"] ?>" />
+		<label for="name">Penyakit Lain</label>
+		<input type="text" name="penyakit_lain" value="<?php echo $data["penyakit_lain"] ?>" />
+		<input type="hidden" name="idpasien" value="<?php echo $data["idpasien"] ?>" />
+		<input type="submit" class="tiny radius button" value="Ubah Data Pasien" />
+</fieldset>
+</form>

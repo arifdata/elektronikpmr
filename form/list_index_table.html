@@ -1,0 +1,4 @@
+<td><a href="select_pasien.php?idpasien=<?php echo $data['idpasien'] ?>"><?php echo $data["nama"] ?></a></td>
+<td><?php echo $data["alamat"] ?></td>
+<td><?php echo $data["telepon"] ?></td>
+<td><a href="delete_pasien.php?idpasien=<?php echo $data['idpasien'] ?>" onclick="return confirm('Hapus data pasien ini?')">Hapus</a></td>
