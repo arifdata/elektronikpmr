@@ -63,11 +63,7 @@ jquery plugin
 4.  [NicEdit](http://nicedit.com/)
 WYSIWYG editor
 
-#### TOS
+#### Lisensi
 
 * * *
-Software
-elektronikpmr ini merupakan aplikasi open source. User bebas
-mendownload, menggunakan, menyebarkan, dan memodifikasi source code
-aplikasi. Penulis aplikasi ini tidak bertanggung jawab atas segala
-kerusakan dan kerugian yang timbul akibat penggunaan aplikasi ini.
+MIT License.
